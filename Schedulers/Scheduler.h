@@ -48,7 +48,7 @@ protected:
         return arrivedProcesses;
     }
 
-    [[nodiscard]] size_t getArrivalQueueSize() const
+    [[nodiscard]] size_t arrivalQueueSize() const
     {
         return arrivalQueue.size();
     }

@@ -49,7 +49,7 @@ public:
 
     [[nodiscard]] size_t getProcCount() const override
     {
-        return readyHeap.size() + this->getArrivalQueueSize();
+        return readyHeap.size() + this->arrivalQueueSize();
     }
 
     [[nodiscard]] size_t getReadyProcCount() const override
