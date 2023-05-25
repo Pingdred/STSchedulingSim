@@ -8,11 +8,9 @@ include_directories(Schedulers)
 
 add_executable(
     STSchedulingSim 
-    Schedulers/Priority.h
     Schedulers/Proc.h
     Schedulers/RR.h
     Schedulers/Scheduler.h
     Schedulers/SJF.h
-    Schedulers/SRTF.h
     main.cpp
 )
