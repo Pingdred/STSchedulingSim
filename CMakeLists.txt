@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(Schedulers)
 
 add_executable(
-    schedsim 
+    STSchedulingSim 
     Schedulers/Priority.h
     Schedulers/Proc.h
     Schedulers/RR.h
