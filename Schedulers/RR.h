@@ -26,7 +26,7 @@ private:
     }
 
 public:
-    RR(int quanto, const list<Proc> &procList) : quanto(quanto), Scheduler(procList)
+    RR(const list<Proc> &procList, int quanto) : Scheduler(procList), quanto(quanto)
     {
         updateReadyQueue();
     }

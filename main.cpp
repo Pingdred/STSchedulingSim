@@ -40,13 +40,13 @@ int main(int argc, char *argv[])
     // cout << endl;
 
     cout << "FCFS:\t\t";
-    runner(RR(numeric_limits<int>::max(), procList));
+    runner(RR(procList, numeric_limits<int>::max()));
 
     cout << "SJF:\t\t";
     runner(SJF(procList));
 
     cout << "RR:\t\t";
-    runner(RR(quanto, procList));
+    runner(RR(procList, quanto));
 
     return 0;
 }
