@@ -5,7 +5,7 @@ STSchedulingSim is a Short-Term Scheduling Algorithms Simulator written in C++. 
 ## Requirements
 
 - C++ compiler
-- CMake (version 3.12 or higher)
+- CMake
 
 ## Build Instructions
 
